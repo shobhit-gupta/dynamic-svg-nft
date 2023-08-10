@@ -1,0 +1,10 @@
+services:
+  nft:
+    build: ./
+    stdin_open: true
+    tty: true
+    container_name: nft-app
+    ports:
+      - "14545:8545"
+    volumes:
+      - ./:/app
