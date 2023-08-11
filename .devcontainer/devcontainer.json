@@ -45,11 +45,15 @@
       "settings": {
         "editor.tabSize": 4,
         "solidity.remappingsUnix": [
-          "@openzeppelin/contracts/=lib/openzeppelin/contracts/",
+          "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
           "@chainlink/contracts/=lib/chainlink-brownie-contracts/contracts/",
           "@solmate/=lib/solmate/src/"
         ],
-        "solidity.packageDefaultDependenciesDirectory": "lib"
+        "solidity.packageDefaultDependenciesDirectory": "lib",
+        "solidity.solhintRules": {
+          "var-name-mixedcase": "off",
+          "private-vars-leading-underscore": ["off"]
+        }
       }
     }
   }
