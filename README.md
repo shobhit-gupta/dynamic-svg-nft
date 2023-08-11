@@ -16,7 +16,7 @@ We go through creating 2 different kinds of NFTs.
 <br/>
 
 
-- [Foundry Dynamic SVG NFT & IPFS Hosted NFT](#foundry-dynamic-svg-nft-&-ipfs-hosted-nft)
+- [Foundry Dynamic SVG NFT & IPFS Hosted NFT](#foundry-dynamic-svg-nft--ipfs-hosted-nft)
 - [Getting Started](#getting-started)
   - [Requirements](#requirements)
   - [Quickstart](#quickstart)
